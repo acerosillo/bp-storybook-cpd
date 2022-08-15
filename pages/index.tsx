@@ -1,5 +1,6 @@
 import * as React from "react";
 import styles from "../styles/Home.module.scss";
+
 import { Button } from "../components/Button";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -7,9 +8,8 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div className={styles.rosillo}>
-      <Header />
       <h1>Style Guide 2022 v1</h1>
-
+      <Header />
       <h2>Buttons</h2>
       <hr />
       <Button primary size="large" label="This is a button" />
@@ -20,7 +20,6 @@ const Home = () => {
         label="This is a button"
         backgroundColor="green"
       />
-
       <Footer />
     </div>
   );

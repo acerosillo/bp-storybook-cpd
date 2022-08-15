@@ -1,0 +1,18 @@
+.menu {
+  border: solid 1px blue;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  .menuitem {
+    margin: 0 1rem 0 0;
+    a {
+      text-decoration: none;
+      color: #000;
+
+      &:hover {
+        color: #ddd;
+      }
+    }
+  }
+}
