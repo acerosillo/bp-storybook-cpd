@@ -7,15 +7,15 @@ const Footer = () => {
       <ul>
         <li>
           <Link href="/Page-a">
-            <a>Page 1</a>
+            <a>API Page</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/Page-b">
             <a>Page 2</a>
           </Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link href="/Page-c">
             <a>Page 3</a>
           </Link>
@@ -39,7 +39,7 @@ const Footer = () => {
           <Link href="/Information">
             <a>Information</a>
           </Link>
-        </li>
+        </li> */}
       </ul>
     </>
   );

@@ -9,40 +9,40 @@ const Header = () => {
     <>
       <ul className={styles.menu}>
         <li className={styles.menuitem}>
-          <Link href="/page-a">
-            <a>Page 1</a>
+          <Link href="/Page-a">
+            <a>API Page</a>
           </Link>
         </li>
-        <li className={styles.menuitem}>
-          <Link href="/page-b">
+        {/* <li className={styles.menuitem}>
+          <Link href="/Page-b">
             <a>Page 2</a>
           </Link>
-        </li>
-        <li className={styles.menuitem}>
-          <Link href="/page-c">
+        </li> */}
+        {/* <li className={styles.menuitem}>
+          <Link href="/Page-c">
             <a>Page 3</a>
           </Link>
         </li>
         <li className={styles.menuitem}>
-          <Link href="/news">
+          <Link href="/News">
             <a>News</a>
           </Link>
         </li>
         <li className={styles.menuitem}>
-          <Link href="/gallery">
+          <Link href="/Gallery">
             <a>Gallery</a>
           </Link>
         </li>
         <li className={styles.menuitem}>
-          <Link href="/about">
+          <Link href="/About">
             <a>About</a>
           </Link>
         </li>
         <li className={styles.menuitem}>
-          <Link href="/information">
+          <Link href="/Information">
             <a>Information</a>
           </Link>
-        </li>
+        </li> */}
       </ul>
     </>
   );
